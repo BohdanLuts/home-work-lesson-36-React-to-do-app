@@ -1,0 +1,44 @@
+@import './../../../common/style/vars'
+
+.form 
+  display: flex
+  flex-direction: column
+  width: 90%
+  margin: 0 auto
+
+  label 
+    display: flex
+    justify-content: space-between
+    align-items: baseline
+    font-weight: bold
+    margin-bottom: 30px
+    position: relative
+
+.error 
+  position: absolute
+  top: 100%
+  right: 15px
+  color: red
+  font-style: italic
+  
+.input 
+  width: 80%
+  border: 1px dotted #cecece
+  font-family: inherit
+
+.valid 
+  background-color: #ecffed
+
+.invalid 
+  background-color: #ffecec
+
+.submit
+  font-size: 15px
+  font-weight: bold
+  border-radius: 10px
+  border: none
+  background-color: $main-light-color
+  font-family: inherit
+
+.form, label, .input, .submit
+  padding: 10px
