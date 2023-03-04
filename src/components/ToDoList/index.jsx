@@ -19,7 +19,7 @@ export const ToDoList = ({ tasks, remove, update }) => {
             <input
               className={styles.todosInput}
               type='checkbox'
-              checked={t.isFavourite}
+              checked={t.isDone}
               onChange={() => handleContactChange(t.id, t.isDone)}
             />
             <span className={styles.task}>{t.tasks}</span>

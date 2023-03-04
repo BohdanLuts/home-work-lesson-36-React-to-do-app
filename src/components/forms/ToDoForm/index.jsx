@@ -7,7 +7,7 @@ import { connect } from 'react-redux';
 import { createTask } from '../../../store/slices/toDoSlice';
 
 function ToDoForm ({ createNewTask }) {
-  const initialValues = { tasks: '' };
+  const initialValues = { task: '' };
 
   const handleSubmit = (values, formikBag) => {
     createNewTask(values);
