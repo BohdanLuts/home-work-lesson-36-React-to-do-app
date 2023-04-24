@@ -22,7 +22,7 @@ export const ToDoList = ({ tasks, remove, update }) => {
               checked={t.isDone}
               onChange={() => handleContactChange(t.id, t.isDone)}
             />
-            <span className={styles.task}>{t.tasks}</span>
+            <span className={styles.task}>{t.task}</span>
             <span>
               {t.isDone ? (
                 <BsFillCheckCircleFill className={styles.done} />

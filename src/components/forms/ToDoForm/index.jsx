@@ -31,7 +31,7 @@ function ToDoForm ({ createNewTask }) {
         <Input
           label='Task:'
           type='text'
-          name='tasks'
+          name='task'
           placeholder='Enter todo here'
           autoFocus
           classes={classes}
